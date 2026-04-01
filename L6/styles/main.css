@@ -1,0 +1,118 @@
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #1A142D;
+    width: 310px;
+    height: 656px;
+    margin: 64px 57px;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+}
+.name {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    
+}
+
+.data {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    font-size: 16px;
+    
+}
+.icon:hover {
+    transform: scale(1.5);
+    transition: transform 0.15s;
+}
+
+
+
+.gallery{
+    display: flex;
+    gap: 40px;
+
+}
+
+.about {
+    font-size: 16px;
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    text-align: left;
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    max-width: 515px;
+    margin: 0 50px;
+}
+
+.discription {
+display: flex;
+gap: 50px;
+}
+.works {
+    font-size: 16px;
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    text-align: left;
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    margin: 0 50px;
+}
+
+.redText {
+    color: #FF0000;
+}
+.education {
+    font-size: 16px;
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    text-align: left;
+    position: absolute;
+    left: 400px;
+    top: 520px;
+    margin: 0 50px;
+}
+
+
+.card{
+    position: relative;
+    overflow: hidden;
+    width: 220px;
+    background-color: #1A142D;
+}
+.card img {
+    width: 100%;
+    display: block;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    bottom: -50px;}
+
+
+.card:hover .caption {
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    background-color: #1A142D;
+    color: #FFFFFF;
+}
+

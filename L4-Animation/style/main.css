@@ -1,0 +1,76 @@
+.ex{
+    animation: anim 15s linear infinite;
+    width: 20px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%)
+}
+
+@keyframes anim {
+    0%{
+        left: 0%;
+        height: 150px;
+        background-color: red;
+
+    }
+
+    12.5%{
+        height: 50px;
+    }
+
+    25%{
+        height: 150px;
+        background-color: blue;
+    }
+
+    37.5%{
+        height: 50;
+    }
+    50%{
+        height: 150px;
+        background-color: red;
+    }
+    62.5%{
+        height: 50px;
+    }
+    75%{
+        height: 150px;
+        background-color: blue;
+    }
+    87.5%{
+        height: 50px;
+
+    }
+    100%{
+        left: 100%;
+        height: 150px;
+        background-color: red;
+    }
+}
+
+
+.loader {
+  border: 16px solid #f3f3f3; /* Світлий колір фону */
+  border-top: 16px solid #3498db; /* Колір обертання */
+  border-radius: 50%; /* Робить його круглим */
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite; /* Запуск анімації */
+  
+  /* Центрування на сторінці */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -60px;
+  margin-left: -60px;
+}
+
+/* Визначення анімації */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

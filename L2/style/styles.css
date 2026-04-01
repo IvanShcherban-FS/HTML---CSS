@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-left: 250px;
+}
+
+table{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    border-collapse: collapse;
+}
+.friday{
+    text-align: center;
+    margin-bottom: 20px;
+    background-image: url("/L2/photo/pngtree-glistening-winter-wonderland-sunlit-white-snow-texture-image_13866245.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+th{
+    border-width: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: #D3D3D3;
+
+
+}
+
+td{
+    border-width: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+caption{
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+

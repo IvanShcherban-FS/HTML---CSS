@@ -1,0 +1,17 @@
+.btn{
+    text-align: center;
+    border: none;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

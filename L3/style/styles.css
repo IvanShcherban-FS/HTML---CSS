@@ -1,0 +1,33 @@
+menu{
+    background-color: grey;
+    width: 250px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    text-align: left;
+}
+
+
+
+ul{
+    list-style-type: none;
+    list-style-position: inside;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: roboto, Helvetica, sans-serif;
+
+}
+li:hover{
+    background-color: rgb(75, 75, 75);
+
+}

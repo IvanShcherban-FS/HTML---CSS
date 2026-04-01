@@ -1,0 +1,90 @@
+.subtitle{
+    background-color: #ff1a1a;
+    color: white;
+    padding: 15px 25px;
+    margin: 100px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+
+.nav-link{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    
+    text-decoration: none;
+    margin: 10px 36px;
+
+}
+
+header{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 10px 20px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    font-weight: 650;
+    gap: 10px;
+}
+
+
+.heading{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(37, 37, 37);
+
+}
+
+.heading2{
+    color: rgb(100, 100, 100);
+    letter-spacing: 2px;
+    width: 1105px;
+    margin: 0px auto;
+
+}
+
+.button{
+    text-align: center; 
+    margin: 50px;
+
+}
+
+main{
+    
+    margin: 0px auto;
+    text-align: center;
+}
+
+.cop{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    max-width: 950px;
+    font-family: "Montserrat", sans-serif;
+    margin: 50px auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
