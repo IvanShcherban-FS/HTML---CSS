@@ -1,0 +1,47 @@
+
+input, label{
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px 0;
+
+}
+
+.login{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 670;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+input[type=button]{
+    background-color: rgb(15, 144, 51);
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+
+body{
+    background-color: rgb(215, 215, 215);
+    padding: 50px;
+
+}
