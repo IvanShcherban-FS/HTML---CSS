@@ -38,6 +38,9 @@ input[type=button]{
     color: white;
     font-weight: 500;
 }
+input[type=button]:hover{
+    background-color: darkgreen;
+}
 
 
 body{
