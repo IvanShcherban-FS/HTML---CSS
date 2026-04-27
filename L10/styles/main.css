@@ -1,0 +1,80 @@
+
+:root {
+    --dark-color: rgba(22, 152, 172, 1);
+    --light-color: rgba(255, 255, 255, 1);
+}
+
+
+body{
+    font-family: Laila;
+    background-image: url("../img/Шаблон.png");
+    background: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+.logo-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-img{
+    width: 70px;
+}
+
+.logo-text{
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    left: -25px;
+    color: var(--dark-color);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.nav-items{
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--light-color);
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@font-face {
+    font-family: Laila;
+    src: url("../fonts/Laila/Laila-Regular.ttf");
+}
+.fl{
+    display: flex;
+    align-items: center;
+}
+
+.logo-box, .nav-box{
+    flex: 1;
+}
+
+.nav-item{
+    border: 2px solid var(--dark-color);
+    border-radius: 20px;
+    text-align: center;
+    padding: 2px 17px;
+    font-weight: 600;
+    flex: 1;
+    white-space: nowrap;
+}
+
+
+.nav-item:hover{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    transition: 0.3s;
+}
