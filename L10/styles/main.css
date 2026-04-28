@@ -5,6 +5,7 @@
 }
 
 .back-img{
+
     background-image: url("../img/back.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,7 +22,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    margin: 10px 20px;
+    
 }
 .logo-box{
     display: flex;
@@ -83,4 +84,8 @@ main{
     background-color: var(--dark-color);
     color: var(--light-color);
     transition: 0.3s;
+}
+.nav-box{
+    display: flex;
+    justify-content: flex-end;
 }
