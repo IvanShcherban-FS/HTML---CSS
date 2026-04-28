@@ -22,6 +22,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    margin: 0 30px;
     
 }
 .logo-box{
@@ -88,4 +89,69 @@ main{
 .nav-box{
     display: flex;
     justify-content: flex-end;
+}
+.all-structure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.name{
+    font-size: 70px;
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+.discription-text{
+    font-size: 70px;
+    color: var(--light-color);
+    width: 40vw;
+}
+.discription{
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.dis {
+margin: 0;
+}
+
+.discription-text1{
+    font-size: 35px;
+    color: var(--light-color);
+    width: 29vw;
+}
+.structure-img{
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+}
+
+.nav-item1{
+    margin: 10vh 0.1vw;
+    border: 2px solid var(--dark-color);
+    border-radius: 13px;
+    width: fit-content;
+    padding: 11px 25px;
+    font-weight: 450;
+    flex: 1;
+    white-space: nowrap;
+    display: inline-flex;
+    
+}
+
+.nav-item1:hover{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    transition: 0.3s;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--light-color);
+    font-size: 26px;
 }
