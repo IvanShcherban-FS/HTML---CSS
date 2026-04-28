@@ -4,13 +4,19 @@
     --light-color: rgba(255, 255, 255, 1);
 }
 
-
+.back-img{
+    background-image: url("../img/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    filter: brightness(1) contrast(1.1);
+}
 body{
     font-family: Laila;
-    background-image: url("../img/Шаблон.png");
     background: cover;
     background-repeat: no-repeat;
     background-color: black;
+    margin: 0 0;
 }
 header{
     display: flex;
