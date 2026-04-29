@@ -31,11 +31,11 @@ header{
     gap: 10px;
 }
 .logo-img{
-    width: 70px;
+    width: 100px;
 }
 
 .logo-text{
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 600;
     position: relative;
     left: -25px;
@@ -97,6 +97,14 @@ main{
     flex-wrap: wrap;
     margin: 30px;
 }
+.structure-img{
+    max-width: 100%;
+    height: auto;
+}
+.structure-img1{
+    max-width: 100%;
+    height: auto;
+}
 
 .name{
     font-size: 70px;
@@ -112,7 +120,7 @@ main{
 .discription{
     display: flex;
     flex-direction: column;
-    margin: 0 30px;
+
 }
 
 .dis {
@@ -124,29 +132,29 @@ margin: 0;
     color: var(--light-color);
     width: 29vw;
 }
-.structure-img{
-    display: flex;
-    margin-top: 35px;
-    align-items: center;
-}
 
 .nav-item1{
-    margin: 10vh 0.1vw;
+    align-items: flex-end;
     border: 2px solid var(--dark-color);
     border-radius: 13px;
     width: fit-content;
     padding: 11px 25px;
     font-weight: 450;
-    flex: 1;
+
     white-space: nowrap;
     display: inline-flex;
     
+}
+.nav-list1{
+    display: flex;
+    gap: 20px;
 }
 
 .nav-item1:hover{
     background-color: var(--dark-color);
     color: var(--light-color);
     transition: 0.3s;
+    border: 1px solid var(--light-color);
 }
 .btn{
     display: flex;
@@ -154,4 +162,172 @@ margin: 0;
     text-decoration: none;
     color: var(--light-color);
     font-size: 26px;
+    border: 2px solid var(--dark-color);
+    border-radius: 20px;
+    text-align: center;
+    padding: 2px 17px;
+    font-weight: 600;
+    flex: 1;
+    white-space: nowrap;
+}
+.btn:hover{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    transition: 0.3s;
+}
+.nav-link{
+    white-space: nowrap;
+
+}
+
+body{
+    background-image:  url("../img/back.png");
+    padding: 50px;
+}
+
+@media (max-width: 767px) {
+    .nav-items {
+        font-size: 10px;
+    }
+    .nav-box{
+        display: none;
+    }
+
+    .body {
+        padding: 5px;
+        
+    }
+    .name{
+        font-size: 25px;
+    }
+    .discription-text{
+        font-size: 20px;
+        width: 70%;
+    }
+        .discription-text1{
+            font-size: 15px;
+            width: 70%;
+        }
+        .nav-list1{
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .all-structure{
+            max-width: 767px;
+        }
+        .img-outside{
+            display: none;
+        }
+        .img-inside{
+            display: block;
+            width: 100%;
+        }
+        .nav-list1{
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+        }
+
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    .nav-items {
+        font-size: 20px;
+    }
+
+    .header{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .body {
+        
+    }
+    .name{
+        font-size: 35px;
+    }
+    .discription-text{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .discription-text1{
+        font-size: 20px;
+        width: 44vw;
+    }
+    .nav-list1{
+        justify-content: space-between;
+        width: 100%;
+}
+.nav-list{
+    justify-content: center;
+}
+    .all-structure{
+        justify-content: center;
+        margin: 17px ;
+    }
+
+    .img-inside{
+        display: block;
+        width: 100%;
+    }
+     .img-outside{
+        display: none;       
+    }
+    .structure-img1{
+        margin: 30px 0;
+    }
+
+
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+    .nav-items {
+        font-size: 24px;
+    }
+    .name{
+        font-size: 50px;
+    }
+    .discription-text{
+        font-size: 40px;
+        width: 50vw;
+    }
+    .discription-text1{
+        width: 53vw;
+        font-size: 32px;
+        margin-bottom:  20px;
+    }
+    .body {
+        padding: 30px;
+    }
+    .img-outside{
+        display: none;     
+    }
+    .nav-list1{
+        
+        width: 100%;
+    }
+        
+
+}
+
+@media (min-width: 1400px) {
+    .nav-items {
+        font-size: 26px;
+    }
+    .name{
+        font-size: 70px;
+    }
+    .discription-text{
+        font-size: 70px;
+        width: 40vw;
+    }
+    .discription-text1{
+        font-size: 35px;
+        width: 29vw;
+        margin-bottom: 30px;
+    }
+    .img-inside{
+        display: none;
+    }
 }
