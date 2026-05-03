@@ -192,7 +192,7 @@ body{
     .nav-box{
         display: none;
     }
-
+    
     .body {
         padding: 5px;
         
@@ -206,21 +206,28 @@ body{
     }
         .discription-text1{
             font-size: 15px;
-            width: 70%;
+            width: 82%;
+        }
+        .dis{
+            margin: 0 10px;
+        }
+        .btn{
+            align-items: center;
         }
         .nav-list1{
-            justify-content: center;
-            align-items: flex-end;
+            max-width: 80%;
         }
         .all-structure{
             max-width: 767px;
+            margin: 0;
         }
         .img-outside{
             display: none;
         }
         .img-inside{
-            display: block;
-            width: 100%;
+           justify-content: center;
+            width: 80%;
+            margin: 10px 20px;
         }
         .nav-list1{
             justify-content: center;
@@ -228,7 +235,21 @@ body{
             align-items: center;
             max-width: 100%;
         }
+        .header{
+            justify-content: center;
+            margin: 0;
+        }
+        .logo-img{
+            width: 60px;
+            height: auto;
+        }
+        .logo-text{
+            font-size: 20px;
+        }
+        .structure-box{
 
+            justify-content: center;
+        }
 }
 
 @media (min-width: 767px) and (max-width: 1024px) {
@@ -241,9 +262,7 @@ body{
         align-items: center;
         gap: 10px;
     }
-    .body {
-        
-    }
+
     .name{
         font-size: 35px;
     }
